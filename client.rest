@@ -1,8 +1,8 @@
 ### Get tasks
-GET http://localhost:3001
+GET https://todo-backend-3zqj.onrender.com
 
 ### Add new task
-POST http://localhost:3001/new HTTP/1.1
+POST https://todo-backend-3zqj.onrender.com/new HTTP/1.1
 Content-Type: application/json
 
 {
@@ -12,4 +12,4 @@ Content-Type: application/json
 // part5_Test created endpoint with Rest Client by creating the following script. HTTP method is delete and the id (in this example 1) for the deleted record (task) on the database is part of url (HTTP query parameter)
 
 ### Delete task
-DELETE http://localhost:3001/delete/37 HTTP/1.1
+DELETE https://todo-backend-3zqj.onrender.com/delete/37 HTTP/1.1
